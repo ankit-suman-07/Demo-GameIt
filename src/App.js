@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Navbar from './components/navbar/Navbar';
+import ImageSlider from './components/image-slider/ImageSlider';
 
 import Home from './pages/home/Home';
+
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <ImageSlider />
         Sample App Demo
         <Routes>
           <Route path="/" element={<Home />} />
