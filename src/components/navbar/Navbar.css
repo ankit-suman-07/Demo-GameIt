@@ -68,3 +68,76 @@
 .active span {
     color: #7843E6;
 }
+.bar {
+    width: 35px;
+    height: 4px;
+    background-color: #ffff;
+    border-radius: 5px;
+    margin: 8px;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu,
+.cross {
+    height: 45px;
+    position: fixed;
+    right: 5px;
+    top: 10px;
+    display: none;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.show-menu {
+    background-color: #000123;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: none;
+}
+
+.logo-res {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+@media (max-width: 800px) {
+    .menus {
+        display: none;
+    }
+
+    .show-menu {
+        display: block;
+    }
+
+    .hamburger-menu,
+    .cross {
+        display: block;
+        z-index: 11;
+        border: 1px solid #000123;
+    }
+
+    .bar.mid {
+        opacity: 1;
+    }
+
+    .cross .bar:nth-child(1) {
+        transform: translateY(15px) rotate(45deg);
+    }
+
+    .cross .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .cross .bar:nth-child(3) {
+        transform: translateY(-15px) rotate(-45deg);
+    }
+
+}
