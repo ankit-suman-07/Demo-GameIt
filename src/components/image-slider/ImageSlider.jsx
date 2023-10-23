@@ -20,9 +20,6 @@ const ImageSlider = () => { // takes in images as props
         SliderImage_5,
     ];
 
-    const iconStyle = {
-        fontSize: 50, // Specify the desired font size here
-    };
 
     const slideRight = () => {
         setIndex((index + 1) % images.length); // increases index by 1
@@ -42,11 +39,11 @@ const ImageSlider = () => { // takes in images as props
             <div className="image-slider-outer" >
                 <div className='image-slider' >
                     <button onClick={slideLeft} className="left-btn" >
-                        <img src={ArrowLeftIcon} />
+                        <img src={ArrowLeftIcon} alt="left-btn" />
                     </button>
                     <img src={images[index]} alt={index} />
                     <button onClick={slideRight} className="right-btn" >
-                        <img src={ArrowRightIcon} />
+                        <img src={ArrowRightIcon} alt="right-btn" />
                     </button>
                 </div>
             </div>

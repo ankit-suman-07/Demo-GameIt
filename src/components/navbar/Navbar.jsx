@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import "./Navbar.css";
 
 import LogoIcon from "../../assets/logo.png";
@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
 
             <div className='menus' >
-                <NavLink exact to="/" activeClassName="active" className="link" ><span>Home</span></NavLink>
+                <NavLink to="/" activeClassName="active" className="link" ><span>Home</span></NavLink>
                 <NavLink to="/genres" activeClassName="active" className="link" ><span>Genres</span></NavLink>
                 <NavLink to="/contact" activeClassName="active" className="link" ><span>Contact Us</span></NavLink>
                 <NavLink to="/saved" activeClassName="active" className="link" ><span>Saved</span></NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
                         GameIt
                     </div>
                 </div>
-                <NavLink exact to="/" activeClassName="active" className="link" onClick={crossBtn} ><span>Home</span></NavLink>
+                <NavLink to="/" activeClassName="active" className="link" onClick={crossBtn} ><span>Home</span></NavLink>
                 <NavLink to="/genres" activeClassName="active" className="link" onClick={crossBtn} ><span>Genres</span></NavLink>
                 <NavLink to="/contact" activeClassName="active" className="link" onClick={crossBtn} ><span>Contact Us</span></NavLink>
                 <NavLink to="/saved" activeClassName="active" className="link" onClick={crossBtn} ><span>Saved</span></NavLink>
