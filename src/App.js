@@ -17,10 +17,11 @@ function App() {
       <Router>
         <Navbar />
         <ImageSlider />
+
+        <GameSlider />
+        <GameSlider />
+        <GameSlider />
         <PassPlans />
-        <GameSlider />
-        <GameSlider />
-        <GameSlider />
         Sample App Demo
         <Routes>
           <Route path="/" element={<Home />} />
