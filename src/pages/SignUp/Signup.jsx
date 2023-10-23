@@ -17,7 +17,7 @@ const Signup = () => {
                         <div className='mid-text' >
                             Or, Sign In using Google
                         </div>
-                        <img src={GoogleIcon} placeholder='google icon' />
+                        <img src={GoogleIcon} alt='google icon' />
                     </div>
                     <div className='signup-inner' >
                         Not an existing user? Click Here
