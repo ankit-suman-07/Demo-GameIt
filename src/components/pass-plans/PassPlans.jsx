@@ -8,14 +8,44 @@ const PassPlans = () => {
                 GAME PASS
             </div>
             <div className='pass-price' >
-                <div className='pass-weekly' >
-
+                <div className='pass-box' >
+                    <div className='pass-box-head' >
+                        Weekly
+                    </div>
+                    <div className='pass-box-desc' >
+                        <span>Access 1 game per week</span>
+                        <span>Free access to 1 event</span>
+                        <span>Free partipication in 1 competetion</span>
+                    </div>
+                    <div className='pass-box-price' >
+                        $ 4.99
+                    </div>
                 </div>
-                <div className='pass-monthly' >
-
+                <div className='pass-box' >
+                    <div className='pass-box-head' >
+                        Monthly
+                    </div>
+                    <div className='pass-box-desc' >
+                        <span>Access 1 game per week</span>
+                        <span>Free access to 1 event</span>
+                        <span>Free partipication in 1 competetion</span>
+                    </div>
+                    <div className='pass-box-price' >
+                        $ 4.99
+                    </div>
                 </div>
-                <div className='pass-yearly' >
-
+                <div className='pass-box' >
+                    <div className='pass-box-head' >
+                        Yearly
+                    </div>
+                    <div className='pass-box-desc' >
+                        <span>Access 1 game per week</span>
+                        <span>Free access to 1 event</span>
+                        <span>Free partipication in 1 competetion</span>
+                    </div>
+                    <div className='pass-box-price' >
+                        $ 4.99
+                    </div>
                 </div>
             </div>
         </div>
