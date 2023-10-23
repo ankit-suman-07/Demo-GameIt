@@ -1,12 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import ImageSlider from './components/image-slider/ImageSlider';
-import GameSlider from './components/games-slider/GameSlider';
-import PassPlans from './components/pass-plans/PassPlans';
 
 import Home from './pages/home/Home';
+import Signup from './pages/SignUp/Signup';
 
 
 function App() {
@@ -15,16 +12,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <ImageSlider />
-
-        <GameSlider />
-        <GameSlider />
-        <GameSlider />
-        <PassPlans />
-        Sample App Demo
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<Signup />} />
           {/* <Route path="/" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/" element={<Home />} />
