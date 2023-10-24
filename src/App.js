@@ -8,6 +8,7 @@ import ContactUs from './pages/Contact/ContactUs';
 import About from './pages/About/About';
 import ProfileUser from './pages/Profile-User/ProfileUser';
 import Signup from './pages/SignUp/Signup';
+import GamesGrid from './pages/games-grid/GamesGrid';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/genres" element={<Genres />} />
+          <Route path="/gamesgrid" element={<GamesGrid />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/about" element={<About />} />
           <Route path="/profileuser" element={<ProfileUser />} />

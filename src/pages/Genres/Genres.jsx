@@ -21,17 +21,16 @@ import RPG from "../../assets/rpg.jpg";
 
 const Genres = () => {
     const genres = [
-        Action, ActionAdventure, Adventure, Casual,
-        Fighting, Horror, Platformer, Racing,
-        Shooter, Simulator, Sports, Strategy,
-        SuperHero, RPG
+        Action, RPG, ActionAdventure, Adventure, SuperHero,
+        Casual, Fighting, Horror, Platformer, Racing,
+        Shooter, Simulator, Sports, Strategy
     ];
 
     const genre_tags = [
-        "Action", "ActionAdventure", "Adventure", "Casual",
-        "Fighting", "Horror", "Platformer", "Racing",
-        "Shooter", "Simulator", "Sports", "Strategy",
-        "SuperHero", "RPG"
+        "Action", "RPG", "ActionAdventure", "Adventure", "SuperHero",
+        "Casual", "Fighting", "Horror", "Platformer", "Racing",
+        "Shooter", "Simulator", "Sports", "Strategy"
+
     ];
 
     return (
