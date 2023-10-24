@@ -24,9 +24,9 @@ const Navbar = () => {
             <div className='menus' >
                 <NavLink to="/" activeClassName="active" className="link" ><span>Home</span></NavLink>
                 <NavLink to="/genres" activeClassName="active" className="link" ><span>Genres</span></NavLink>
-                <NavLink to="/contact" activeClassName="active" className="link" ><span>Contact Us</span></NavLink>
-                <NavLink to="/saved" activeClassName="active" className="link" ><span>Saved</span></NavLink>
-                <NavLink to="/room" activeClassName="active" className="link" ><span>My Room</span></NavLink>
+                <NavLink to="/contactus" activeClassName="active" className="link" ><span>Contact Us</span></NavLink>
+                <NavLink to="/about" activeClassName="active" className="link" ><span>About</span></NavLink>
+                <NavLink to="/profileuser" activeClassName="active" className="link" ><span>My Room</span></NavLink>
             </div>
 
             <div className={cross ? "cross" : "hamburger-menu"} onClick={crossBtn} >
@@ -46,9 +46,9 @@ const Navbar = () => {
                 </div>
                 <NavLink to="/" activeClassName="active" className="link" onClick={crossBtn} ><span>Home</span></NavLink>
                 <NavLink to="/genres" activeClassName="active" className="link" onClick={crossBtn} ><span>Genres</span></NavLink>
-                <NavLink to="/contact" activeClassName="active" className="link" onClick={crossBtn} ><span>Contact Us</span></NavLink>
-                <NavLink to="/saved" activeClassName="active" className="link" onClick={crossBtn} ><span>Saved</span></NavLink>
-                <NavLink to="/room" activeClassName="active" className="link" onClick={crossBtn} ><span>My Room</span></NavLink>
+                <NavLink to="/contactus" activeClassName="active" className="link" onClick={crossBtn} ><span>Contact Us</span></NavLink>
+                <NavLink to="/about" activeClassName="active" className="link" onClick={crossBtn} ><span>About</span></NavLink>
+                <NavLink to="/profileuser" activeClassName="active" className="link" onClick={crossBtn} ><span>My Room</span></NavLink>
             </div>
 
         </div>
