@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    margin: 0 20px 0 20px;
+    margin: 20px 20px 0 20px;
 }
 
 .profile-user-img,
@@ -59,7 +59,7 @@
 @media (max-width: 1000px) {
     .profile-card {
         gap: 10px;
-        margin: 0 10px 0 10px;
+        margin: 10px 10px 0 10px;
     }
 }
 
@@ -67,7 +67,7 @@
 
     .profile-card {
         gap: 10px;
-        margin: 0 10px 0 10px;
+        margin: 10px 10px 0 10px;
     }
 
     .profile-user-img,
@@ -119,7 +119,7 @@
 
     .profile-card {
         gap: 5px;
-        margin: 0 10px 0 10px;
+        margin: 10px 10px 0 10px;
     }
 
     .user-name {
